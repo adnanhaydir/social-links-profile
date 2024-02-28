@@ -6,14 +6,17 @@
 }
 
 body {
+  display: grid;
   background-color: hsl(0, 0%, 8%);
+  min-height: 100vh;
+  position: relative;
+  place-items: center;
 }
 
 main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 97vh;
 }
 
 .container {
@@ -96,4 +99,6 @@ main {
 .attribution {
   text-align: center;
   color: white;
+  position: absolute;
+  bottom: 1rem;
 }
